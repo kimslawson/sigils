@@ -215,8 +215,8 @@ do
 	endif
 loop:rem end main game loop
 
-rem fill out this line with a tribute to HSW
-?"All respect to Howard Scott Warshaw, to whom my Yorgle easter egg is dedicated. Good luck to all the 2022 NOMAM entrants!"
+rem fill out this line with a tribute
+?"All respect to Warren Robinett, to whom my Yorgle easter egg is dedicated. Good luck to all the 2022 NOMAM entrants!"
 
 rem trapped errors go here, restarting the game and redisplaying the menu
 #run
