@@ -64,7 +64,7 @@ rem dimension the arrays to hold level widths and x,y starting positions
 dim level$(255),l(16,8),wid(10),x(10),y(10)
 
 rem encode levels into string, prepended by substring lengths by level
-rem size, startx, starty, then bit-encoded columns as chars (8 bits high by size bits wide) 
+rem bit-encoded columns as chars (8 bits high by size bits wide, where size comes from the DATA statement at the end)
 rem lvl: 1      2                    3           4                 5                          6                    7                             8                 9              10
 level$=["<8<<<<<\1C\14\1C\08\1C\14\1C\38\1C\3C\38\30\38\2C\7E\7E\20\FF\FF\FF\FE\FE\FE\FC\FC\FC\1C\1C\7F\77\7F\1C\1C\1C\36\3E\1C\1C\04\1C\1C\04\1C\7E\5A\7E\7E\5A\7E\0F\3B\2E\3B\0F\0C\0C\0E\1B\7F\CE\80\FC\FE\FE\7E\78\40\CE\82\FE"]
 
