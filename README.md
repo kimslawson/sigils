@@ -116,11 +116,11 @@ do
 		x=4:y=4:btime=time:mtime=time:oc=0:rem initialize cursor and times
 		
 		while 2-done-b
-			rem blink the cursor
+		  rem blink the cursor
 		  if time-btime>10:btime=time:b=1-b:color b*2-oc*b:plot x,y:endif
 
-			REM get joystick position
-			S=STICK(0)
+	    REM get joystick position
+	    S=STICK(0)
 	    dy=((S=13)-(S=14))*2
 	    dx=((S=7)-(S=11))*2
 
@@ -246,7 +246,7 @@ do
 	endif
 loop:rem end main game loop
 
-rem fill out this line with a tribute to HSW
+rem fill out this line with a tribute
 ?"All respect to Warren Robinett, to whom my Yorgle easter egg is dedicated. Good luck to all the 2022 NOMAM entrants!"
 
 rem trapped errors go here, restarting the game and redisplaying the menu
