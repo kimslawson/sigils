@@ -10,6 +10,8 @@ Requires an Atari 8-bit machine or emulator running TurboBASIC XL (800XL minimum
 
 The provided disk image contains TurboBASIC XL and automatically runs the game.
 
+*Update (2022-05-12):* [Now you can play the game right in your browser](https://mrk.sed.pl/bevy-atari/#disk_1=https://slawson.org/atari/sigils/sigils.atr) in the excellent [bevy-atari](https://github.com/mrk-its/bevy-atari) emulator! (Use the arrow keys and the shift key)
+
 ## The pitch
 It's connect the dots, but more interesting. You form symbols (sigils) as you play. Also, there are gratuitous crashing noises.
 
