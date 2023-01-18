@@ -257,7 +257,8 @@ run
 
 rem data needs to be at end of line so fill out the last line with it
 data -2,0,0,0,0,2,2,2,2,4,0,4,-4,0,4,4,-8,0,6,0,6,4,8,4,8,2,-10,0,10,4,-12,0,12,4,14,4,-18,0,16,0,16,2,18,2,18,4,16,4,7,2,2,7,2,2,4,1,4,6,5,5,9,0,0,7,5,3,10,4,3,6,0,1,5,0,0,16,4,2
-rem data has level widths and starting x and y pos too (width,x,y for each level)                       starting here|1     2     3     4     5     6     7      8     9     10```
+rem data has level widths and starting x and y pos too (width,x,y for each level)                       starting here|1     2     3     4     5     6     7      8     9     10
+```
 </p>
 </details>
 
